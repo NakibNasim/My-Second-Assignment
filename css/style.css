@@ -171,7 +171,7 @@ body{
 .footer-section{
     margin: 158px 0px 73px 0px;
 }
-.footer-wrapper{
+.footer-wp{
     text-align: center;
 }
 
@@ -220,7 +220,7 @@ body{
     .section-1st{
         padding: 0px;
     }
-    .section-wp{
+    .section-wp {
         display: grid;
         grid-template-rows: repeat(1, 1fr);
         
@@ -250,4 +250,28 @@ body{
     .players-wrapper{
         grid-template-columns: repeat(1, 1fr);
     }
+
+    /* section-4 / highlights section style */
+    .section-4{
+        margin-top: 100px;
+    }
+    .pic-info-wrapper{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .highlights-pic{
+        margin-top: 40px;
+    }
+
+    /*------------------
+         footer
+----------------------- */
+
+.footer-section{
+    margin: 100px 0px 73px 0px;
 }
+.footer-logo img{
+    width: 100%;
+}
+  
+}
+
