@@ -127,7 +127,11 @@ body{
     grid-column-gap: 40px;
     justify-content: center;
 }
-
+.football-video{
+    display: flex;
+    justify-content: center;
+    margin: 50px 50px;
+}
 .highlights-info{
     margin-right: 10px;
 }
@@ -216,20 +220,23 @@ body{
     .section-1st{
         padding: 0px;
     }
-    .section-wrapper{
+    .section-wp{
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        
     }
     .text-part h1{
-        font-size: 36px;
-        margin: 30px 0px;
+        font-size: 46px;
+        margin: 20px 0px;
     }
     .text-part{
         width: 100%;
     }
     .img-part{
-        width: 98%;
+        width: 140%;
         margin: 40px 0px;
+        margin-top: 60px;
+        margin-left: -70px;
     }
     .img-part img{
         width: 100%;
